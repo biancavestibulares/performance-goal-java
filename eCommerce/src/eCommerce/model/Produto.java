@@ -57,10 +57,10 @@ public abstract class Produto {
 
 		switch(this.tipoProduto) {
 		case 1: 
-			tipo = "Doces";
+			tipo = "Doce";
 			break;
 		case 2:
-			tipo = "Salgados";
+			tipo = "Salgado";
 			break;
 		}
 
@@ -71,9 +71,7 @@ public abstract class Produto {
 		System.out.println("\nProduto: " + this.nomeProduto);
 		System.out.println("Tipo de produto: " + tipo);
 		System.out.println("ID produto: " + this.idProduto);
-		System.out.println("Preço unitário: " + this.precoProduto);
-		System.out.println("                                                 ");
-		System.out.println("*************************************************");
+		System.out.println("Preço unitário: R$" + this.precoProduto);
 	}
 	
 }

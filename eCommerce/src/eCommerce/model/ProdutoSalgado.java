@@ -3,28 +3,28 @@ package eCommerce.model;
 public class ProdutoSalgado extends Produto{
 
 	//Variável
-	private String nomeSalgado;
+	private float qntdProteinas;
 
 	//Construtor
-	public ProdutoSalgado(String nomeProduto, int tipoProduto, int idProduto, float precoProduto, String nomeSalgado) {
+	public ProdutoSalgado(String nomeProduto, int tipoProduto, int idProduto, float precoProduto, float qntdProteinas) {
 		super(nomeProduto, tipoProduto, idProduto, precoProduto);
-		this.nomeSalgado = nomeSalgado;
+		this.qntdProteinas = qntdProteinas;
 	}
 
 	//Getters e Setters
-	public String getNomeSalgado() {
-		return nomeSalgado;
+	public float getQntdProteinas() {
+		return qntdProteinas;
 	}
 
-	public void setNomeSalgado(String nomeSalgado) {
-		this.nomeSalgado = nomeSalgado;
+	public void setQntdProteinas(float qntdProteinas) {
+		this.qntdProteinas = qntdProteinas;
 	}
 
 	//Adicionando salgado na visualização
 	@Override//Para poder usar um método já existente na classe-mãe
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Salgado: " + this.nomeSalgado);
+		System.out.println("Quantidade de proteínas: " + this.qntdProteinas + "g");
 		System.out.println("\n*************************************************");
 	}
 

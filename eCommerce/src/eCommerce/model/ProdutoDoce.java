@@ -3,28 +3,28 @@ package eCommerce.model;
 public class ProdutoDoce extends Produto{
 	
 	//Variável
-	private String nomeDoce;
+	private float qntdCalorias;
 
 	//Construtor
-	public ProdutoDoce(String nomeProduto, int tipoProduto, int idProduto, float precoProduto, String nomeDoce) {
+	public ProdutoDoce(String nomeProduto, int tipoProduto, int idProduto, float precoProduto, float qntdCalorias) {
 		super(nomeProduto, tipoProduto, idProduto, precoProduto);
-		this.nomeDoce = nomeDoce;
+		this.qntdCalorias = qntdCalorias;
 	}
 
 	//Getters e Setters
-	public String getNomeDoce() {
-		return nomeDoce;
+	public float getQntdCalorias() {
+		return qntdCalorias;
 	}
 
-	public void setNomeDoce(String nomeDoce) {
-		this.nomeDoce = nomeDoce;
+	public void setQntdCalorias(float qntdCalorias) {
+		this.qntdCalorias = qntdCalorias;
 	}
 	
 	//Adicionando doce na visualização
 	@Override//Para poder usar um método já existente na classe-mãe
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Doce: " + this.nomeDoce);
+		System.out.println("Quantidade de calorias: " + this.qntdCalorias + "kcal");
 		System.out.println("\n*************************************************");
 	}
 
