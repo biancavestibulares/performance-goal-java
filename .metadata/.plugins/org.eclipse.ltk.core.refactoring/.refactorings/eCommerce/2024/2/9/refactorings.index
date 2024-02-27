@@ -1,2 +1,6 @@
 1709036959033	Delete element
 1709039311871	Delete element
+1709041084427	Rename type 'Loja'
+1709041139685	Rename type 'LojaRepository'
+1709042531014	Rename field 'quantidadeProduto'
+1709042543884	Rename local variable 'quantidadeProduto'

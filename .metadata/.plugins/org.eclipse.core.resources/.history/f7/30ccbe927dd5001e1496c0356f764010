@@ -1,0 +1,16 @@
+package eCommerce.model;
+
+public class ProdutoDoce extends Produto{
+	
+	//Variável
+	private String nomeDoce;
+
+	//Construtor
+	public ProdutoDoce(String nomeProduto, int tipoProduto, int idProduto, float precoProduto, String nomeDoce) {
+		super(nomeProduto, tipoProduto, idProduto, precoProduto);
+		this.nomeDoce = nomeDoce;
+	}
+	
+	
+
+}
