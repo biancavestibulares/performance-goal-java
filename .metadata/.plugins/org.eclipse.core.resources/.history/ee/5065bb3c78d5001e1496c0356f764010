@@ -1,0 +1,54 @@
+package eCommerce.model;
+
+public class Produto {
+	
+	//Atributos da loja
+	private String nomeProduto;
+	private int quantidadeProduto;
+	private int idProduto;
+	private float precoProduto;
+	
+	//Construtor
+	public Produto(String nomeProduto, int quantidadeProduto, int idProduto, float precoProduto) {
+		super();
+		this.nomeProduto = nomeProduto;
+		this.quantidadeProduto = quantidadeProduto;
+		this.idProduto = idProduto;
+		this.precoProduto = precoProduto;
+	}
+
+	
+	public String getNomeProduto() {
+		return nomeProduto;
+	}
+
+	public void setNomeProduto(String nomeProduto) {
+		this.nomeProduto = nomeProduto;
+	}
+
+	public int getQuantidadeProduto() {
+		return quantidadeProduto;
+	}
+
+	public void setQuantidadeProduto(int quantidadeProduto) {
+		this.quantidadeProduto = quantidadeProduto;
+	}
+
+	public int getIdProduto() {
+		return idProduto;
+	}
+
+	public void setIdProduto(int idProduto) {
+		this.idProduto = idProduto;
+	}
+
+	public float getPrecoProduto() {
+		return precoProduto;
+	}
+
+	public void setPrecoProduto(float precoProduto) {
+		this.precoProduto = precoProduto;
+	}
+	
+	
+}
