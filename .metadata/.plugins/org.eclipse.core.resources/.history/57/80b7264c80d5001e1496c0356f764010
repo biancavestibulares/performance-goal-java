@@ -1,0 +1,38 @@
+package eCommerce.controller;
+
+import eCommerce.model.Produto;
+import eCommerce.repository.ProdutoRepository;
+
+public class ProdutoController implements ProdutoRepository{
+
+	@Override
+	public void cadastrarProduto(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void listarProdutos() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void atualizar(Produto conta) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void buscarPorID(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deletar(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
