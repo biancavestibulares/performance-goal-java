@@ -21,13 +21,12 @@ public class Menu {
 			System.out.println("                                                 ");
 			System.out.println("*************************************************");
 			System.out.println("                                                 ");
-			System.out.println("       Opção 1 - Cadastrar                       ");
-			System.out.println("       Opção 2 - Cadastrar produto               ");
-			System.out.println("       Opção 3 - Listar produtos                 ");
-			System.out.println("       Opção 4 - Atualizar dados produto         ");
-			System.out.println("       Opção 5 - Comprar                         ");
-			System.out.println("       Opção 6 - Apagar produto                  ");
-			System.out.println("       Opção 7 - Sair                            ");
+			System.out.println("       Opção 1 - Cadastrar produto               ");
+			System.out.println("       Opção 2 - Listar produtos                 ");
+			System.out.println("       Opção 3 - Atualizar dados produto         ");
+			System.out.println("       Opção 4 - Consultar produto por ID        ");
+			System.out.println("       Opção 5 - Apagar produto                  ");
+			System.out.println("       Opção 6 - Sair                            ");
 			System.out.println("                                                 ");
 			System.out.println("*************************************************");
 			System.out.println("                                                 ");
@@ -45,20 +44,8 @@ public class Menu {
 			}
 			
 			//Criando casos para cada uma das opções
-			switch(opcao) {
+			switch(opcao) {	
 			case 1:
-				System.out.println(Cores.TEXT_CYAN_BRIGHT);
-				System.out.println("*************************************************");
-				System.out.println("                                                 ");
-				System.out.println("                CADASTRAR CLIENTE                ");
-				System.out.println("                                                 ");
-				System.out.println("*************************************************");
-				System.out.println("                                                 ");
-				
-				System.out.println(Cores.TEXT_RESET);
-			break;
-			
-			case 2:
 				System.out.println(Cores.TEXT_CYAN_BRIGHT);
 				System.out.println("*************************************************");
 				System.out.println("                                                 ");
@@ -70,7 +57,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_RESET);
 			break;
 			
-			case 3:
+			case 2:
 				System.out.println(Cores.TEXT_CYAN_BRIGHT);
 				System.out.println("*************************************************");
 				System.out.println("                                                 ");
@@ -82,7 +69,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_RESET);
 			break;
 				
-			case 4:
+			case 3:
 				System.out.println(Cores.TEXT_CYAN_BRIGHT);
 				System.out.println("*************************************************");
 				System.out.println("                                                 ");
@@ -94,7 +81,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_RESET);
 			break;
 				
-			case 5:
+			case 4:
 				System.out.println(Cores.TEXT_CYAN_BRIGHT);
 				System.out.println("*************************************************");
 				System.out.println("                                                 ");
@@ -106,7 +93,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_RESET);
 			break;
 				
-			case 6:
+			case 5:
 				System.out.println(Cores.TEXT_CYAN_BRIGHT);
 				System.out.println("*************************************************");
 				System.out.println("                                                 ");
@@ -118,7 +105,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_RESET);
 			break;
 			
-			case 7:
+			case 6:
 				//Finalização do sistema
 				System.out.println(Cores.TEXT_WHITE + Cores.ANSI_CYAN_BACKGROUND_BRIGHT);
 				System.out.println("                                                 ");
